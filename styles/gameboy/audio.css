@@ -1,0 +1,40 @@
+.gameboy .audio {
+  position: absolute;
+  width: calc(0.55 * 90vmin * 0.15);
+  height: calc(0.55 * 90vmin * 0.15);
+  background-color: transparent;
+  bottom: 3%;
+  right: 3%;
+}
+
+.gameboy .audio .hole {
+  position: absolute;
+  transform: rotate(135deg);
+  width: 100%;
+  height: 0.5vmin;
+  background-color: #3f3a3a;
+  border: 0.25vmin solid #606060;
+  box-sizing: content-box;
+  border-radius: 1000px;
+}
+
+.gameboy .audio .detail-1 {
+  top: 16.66%;
+  right: 50%;
+}
+
+.gameboy .audio .detail-2 {
+  top: 33.33%;
+  right: 33.33%;
+}
+
+.gameboy .audio .detail-3 {
+  top: 50%;
+  right: 16.66%;
+}
+
+.gameboy .audio .detail-4 {
+  top: 66.66%;
+  right: 0;
+}
+

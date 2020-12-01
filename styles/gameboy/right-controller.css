@@ -1,0 +1,43 @@
+.gameboy .right-controller {
+  position: absolute;
+  transform: rotate(330deg) translateY(60%);
+  top: 55%;
+  left: 50%;
+  width: calc(0.55 * 90vmin * 0.35);
+  height: calc(0.55 * 90vmin * 0.17);
+  background-color: #9E9FAD;
+  border: 0.7vmin solid #522337;
+  border-radius: 1000px;
+  box-shadow: 0.3vmin 0.15vmin 0 rgba(0, 0, 0, 0.3);
+}
+
+.gameboy .right-controller .btn {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  width: calc(0.55 * 90vmin * 0.17 * 0.5);
+  height: calc(0.55 * 90vmin * 0.17 * 0.5);
+  background-color: #b33322;
+  border: 0.7vmin solid #522337;
+  border-radius: 100%;
+  box-shadow: 0.3vmin 0.15vmin 0 rgba(0, 0, 0, 0.3), inset 0.3vmin 0.15vmin 0 rgba(255, 255, 255, 0.5);
+}
+
+.gameboy .right-controller .btn-left {
+  left: 10%;
+
+}
+
+.gameboy .right-controller .btn-right {
+  right: 10%;
+}
+
+/* BEGIN - animations */
+.gameboy .right-controller .btn:active {
+  box-shadow: 0 0 0 transparent;
+}
+
+.gameboy .right-controller .btn:hover {
+  cursor: pointer;
+}
+/* END - animations */

@@ -1,0 +1,33 @@
+.gameboy .middle-controller .btn {
+  position: absolute;
+  transform: rotate(330deg);
+  top: 80%;
+  width: calc(0.55 * 90vmin * 0.16);
+  height: calc(0.55 * 90vmin * 0.03);
+  font-size: 1.1vmin;
+  color: white;
+  text-align: center;
+  background-color: #9E9FAD;
+  border: 0.6vmin solid #522337;
+  border-radius: 1000px;
+  box-shadow: 0.3vmin 0.15vmin 0 rgba(0, 0, 0, 0.3);
+}
+
+.gameboy .middle-controller .btn-left {
+  left: 33%;
+}
+
+.gameboy .middle-controller .btn-right {
+  left: 47%;
+}
+
+/* BEGIN - animations */
+.gameboy .middle-controller .btn:active {
+  box-shadow: 0 0 0 transparent;
+  font-weight: bolder;
+}
+
+.gameboy .middle-controller .btn:hover {
+  cursor: pointer;
+}
+/* END - animations */

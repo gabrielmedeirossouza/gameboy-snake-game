@@ -1,0 +1,73 @@
+.gameboy .left-controller {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  width: calc(0.55 * 90vmin * 0.35);
+  height: calc(0.55 * 90vmin * 0.35);
+  background-color: #9E9FAD;
+  border: 0.7vmin solid #522337;
+  border-radius: 100%;
+  box-shadow: 0.4vmin 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.gameboy .left-controller .btn {
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  border-top: .5vmin solid #522337;
+  border-right: .5vmin solid #522337;
+  border-left: .5vmin solid #522337;
+  border-radius: 1vmin;
+  background-color: #5f3145;
+}
+
+.gameboy .left-controller .btn-top {
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+  box-shadow: 0.4vmin 0 0 rgba(0, 0, 0, 0.3), inset 0.6vmin 0 0 rgba(255, 255, 255, 0.35);
+}
+
+.gameboy .left-controller .btn-right {
+  transform: translate(-50%, -50%) rotate(90deg);
+  top: 50%;
+  left: 80%;
+  box-shadow: 0 -0.4vmin 0 rgba(0, 0, 0, 0.3), inset 0 -0.6vmin 0 rgba(255, 255, 255, 0.35);
+}
+
+.gameboy .left-controller .btn-down {
+  transform: translate(-50%, -50%) rotate(180deg);
+  top: 80%;
+  left: 50%;
+  box-shadow: -0.4vmin 0 0 rgba(0, 0, 0, 0.3), inset -0.6vmin 0 0 rgba(255, 255, 255, 0.35);
+}
+
+.gameboy .left-controller .btn-left {
+  transform: translate(-50%, -50%) rotate(270deg);
+  top: 50%;
+  left: 20%;
+  box-shadow: inset 0 0.6vmin 0 rgba(255, 255, 255, 0.35);
+}
+
+/* BEGIN - details */
+.gameboy .left-controller .detail-1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 29%;
+  height: 29%;
+  background-color: #522337;
+  border-radius: 1vmin;
+}
+/* END - details */
+
+/* BEGIN - animations */
+.gameboy .left-controller .btn:active {
+  box-shadow: 0 0 0 transparent;
+}
+
+.gameboy .left-controller .btn:hover {
+  cursor: pointer;
+}
+/* END - animations */

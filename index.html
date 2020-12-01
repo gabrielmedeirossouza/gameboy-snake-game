@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BEGIN - css files -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- BEGIN - gameboy css -->
+  <link rel="stylesheet" href="styles/gameboy/_gameboy.css">
+  <link rel="stylesheet" href="styles/gameboy/display.css">
+  <link rel="stylesheet" href="styles/gameboy/left-controller.css">
+  <link rel="stylesheet" href="styles/gameboy/right-controller.css">
+  <link rel="stylesheet" href="styles/gameboy/middle-controller.css">
+  <link rel="stylesheet" href="styles/gameboy/audio.css">
+  <!-- END - gameboy css -->
+  <!-- END - css files -->
+
+  <title>Gameboy</title>
+</head>
+<body>
+
+  <div class="gameboy">
+
+    <section class="display">
+
+      <span class="detail-1"></span>
+      <span class="detail-2"></span>
+      <span class="detail-3"></span>
+
+      <div class="glass">
+        <div id="game-runtime"></div>
+        <div class="film"></div>
+      </div>
+
+    </section>
+
+    <section class="left-controller">
+      <button class="btn btn-top"></button>
+      <button class="btn btn-right"></button>
+      <button class="btn btn-down"></button>
+      <button class="btn btn-left"></button>
+      <span class="detail-1"></span>
+    </section>
+
+    <section class="right-controller">
+      <button class="btn btn-left"></button>
+      <button class="btn btn-right"></button>
+    </section>
+
+    <section class="middle-controller">
+      <button class="btn btn-left">SELECT</button>
+      <button class="btn btn-right">START</button>
+    </section>
+
+    <section class="audio">
+      <span class="hole detail-1"></span>
+      <span class="hole detail-2"></span>
+      <span class="hole detail-3"></span>
+      <span class="hole detail-4"></span>
+    </section>
+
+  </div>
+
+  <script src="scripts/snake/main.js" defer type="module"></script>
+  <script src="scripts/gameboy/input.js" defer></script>
+</body>
+</html>
